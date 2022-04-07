@@ -4,6 +4,10 @@ body{
     height: 1200px;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+    color: #707070;
+}
 
 @media screen and (min-width:750px){
     html{
@@ -18,5 +22,28 @@ body{
     text-align: center;
     line-height: 2.1333rem;
     border-bottom: 1px solid #eaeaea;
+}
 
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.2rem 0 1.6rem;
+    .item{
+        display: flex;
+        width: 33.33%;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        img{
+            width: 3.7067rem;
+            height: 3.7067rem;
+        }
+        span{
+            font-size: .6667rem;
+        }
+
+        &:nth-child(-n+3){
+            margin-bottom: 1.6533rem;
+        }
+    }
 }
