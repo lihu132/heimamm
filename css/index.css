@@ -102,6 +102,7 @@ a {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  justify-content: center;
   -webkit-justify-content: center;
   flex-direction: column;
   -webkit-box-align: center;
@@ -135,4 +136,8 @@ a {
   transform: scale(1);
   z-index: 999;
   opacity: 1;
+}
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  transform: scale(1);
 }
