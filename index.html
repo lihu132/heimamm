@@ -57,13 +57,18 @@
     <section class="content">
         <div class="con-hd">
             <h4>
+<<<<<<< HEAD
                 <span><img src="./icons/i1.png" alt=""></span>
                 就业指导
+=======
+                <span><img src="./icons/i1.png" alt=""></span> 就业指导
+>>>>>>> 8272a603f039223348d03265eb808f8537f2089a
             </h4>
             <a href="javascript:;" class="more">更多>></a>
         </div>
         <div class="get_job_focus">
             <!-- Swiper -->
+<<<<<<< HEAD
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">Slide 1</div>
@@ -84,12 +89,58 @@
     </section>
 
 
+=======
+            <div class="swiper-container get_job_fo">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="./images/pic.png" alt="">
+                        </a>
+                        <p>老师教你应对面试技巧</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="./images/2.jpg" alt="">
+                        </a>
+                        <p>老师教你应对面试技巧</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="./images/3.jpg" alt="">
+                        </a>
+                        <p>老师教你应对面试技巧</span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 添加左右箭头 根据需求把箭头放在container外面，否则overflow hidden-->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- 充电学习 -->
+    <section class="content">
+        <div class="con-hd">
+            <h4>
+                <span><img src="./icons/i1.png" alt=""></span> 充电学习
+            </h4>
+            <a href="javascript:;" class="more">更多>></a>
+        </div>
+        <!-- 学习模块轮播图 -->
+        <div class="study">
+            123
+        </div>
+    </section>
+
+>>>>>>> 8272a603f039223348d03265eb808f8537f2089a
 
 
     <script src="./js/flexible.js"></script>
     <script src="./js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
+<<<<<<< HEAD
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 3,
             spaceBetween: 30,
@@ -100,6 +151,27 @@
                 clickable: true,
             },
         });
+=======
+        //   就业指导轮播图
+        (function() {
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                // 当前最大的是否在中间
+                centeredSlides: true,
+                loop: true,
+                //添加左右箭头
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                }
+
+            });
+        })();
+
+        // chong
+>>>>>>> 8272a603f039223348d03265eb808f8537f2089a
     </script>
 </body>
 
