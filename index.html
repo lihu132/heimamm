@@ -102,7 +102,32 @@
         </div>
         <!-- 学习模块轮播图 -->
         <div class="study">
-            123
+            <!-- Swiper -->
+            <div class="swiper mySwiper study_fo">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/pic1.png" alt="">
+                        <h5>说地道英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/pic2.png" alt="">
+                        <h5>说地道英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/pic1.png" alt="">
+                        <h5>说地道英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/pic1.png" alt="">
+                        <h5>说地道英语，告别中式英语</h5>
+                        <p>156人学习</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -114,7 +139,7 @@
     <script>
         //   就业指导轮播图
         (function () {
-            var swiper = new Swiper('.swiper-container', {
+            var swiper = new Swiper('.get_job_fo', {
                 slidesPerView: 2,
                 spaceBetween: 30,
                 // 当前最大的是否在中间
@@ -130,7 +155,20 @@
             });
         })();
 
-        // chong
+        // 学习模块轮播图
+        (function () {
+            //如果有多个轮播图需要修改
+            var swiper = new Swiper(".study_fo", {
+                slidesPerView: 2.2,
+                spaceBetween: 20,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        })()
+
+
     </script>
 </body>
 
